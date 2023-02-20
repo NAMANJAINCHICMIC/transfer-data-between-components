@@ -1,0 +1,14 @@
+<p>acom works!</p>
+<form [formGroup] ="profileForm" (ngSubmit)="login(profileForm.value)">
+    <input type="text" placeholder="Enter UserName" name="userName" formControlName="userName"><br>
+    <input type="text" placeholder="Enter Email" name="email" formControlName="email" ><br>
+    <br>
+    <button>Submit</button>
+</form>
+<!-- 
+<div *ngFor="let data of adata">
+    <ul>
+        <li>{{adata}}</li>
+    </ul>
+
+  </div> -->
